@@ -1,0 +1,1 @@
+{"name":"Local: pattern1Reverse","url":"f:\\Phitron\\4th week\\Module13\\pattern1Reverse.c","tests":[{"id":1714228991859,"input":"5","output":"*********\n *******\n  *****\n   ***\n    *"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\4th week\\Module13\\pattern1Reverse.c","group":"local","local":true}

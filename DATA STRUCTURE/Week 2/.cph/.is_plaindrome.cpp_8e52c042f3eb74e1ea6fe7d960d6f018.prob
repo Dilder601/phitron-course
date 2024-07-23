@@ -1,0 +1,1 @@
+{"name":"Local: is_plaindrome","url":"f:\\Phitron\\DATA STRUCTURE\\Week 2\\is_plaindrome.cpp","tests":[{"id":1719598783200,"input":"1 2 3 2 1 -1","output":"YES"},{"id":1719598844106,"input":"1 2 3 4 5 -1","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DATA STRUCTURE\\Week 2\\is_plaindrome.cpp","group":"local","local":true}

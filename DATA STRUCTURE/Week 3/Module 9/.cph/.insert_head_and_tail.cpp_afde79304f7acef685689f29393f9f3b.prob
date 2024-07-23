@@ -1,0 +1,1 @@
+{"name":"Local: insert_head_and_tail","url":"f:\\Phitron\\DATA STRUCTURE\\Week 3\\Module 9\\insert_head_and_tail.cpp","tests":[{"id":1719714511781,"input":"0 100","output":"100 10 20 30 40 \n40 30 20 10 100 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DATA STRUCTURE\\Week 3\\Module 9\\insert_head_and_tail.cpp","group":"local","local":true}

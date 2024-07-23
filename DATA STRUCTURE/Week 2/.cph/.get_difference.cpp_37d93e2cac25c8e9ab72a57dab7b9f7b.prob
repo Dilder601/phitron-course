@@ -1,0 +1,1 @@
+{"name":"Local: get_difference","url":"f:\\Phitron\\DATA STRUCTURE\\Week 2\\get_difference.cpp","tests":[{"id":1719506297797,"input":"2 4 1 5 3 6 -1","output":"5"},{"id":1719506307221,"input":"2 -1\n","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DATA STRUCTURE\\Week 2\\get_difference.cpp","group":"local","local":true}

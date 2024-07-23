@@ -1,0 +1,1 @@
+{"name":"Local: fu_ret_no_param","url":"f:\\Phitron\\4th week\\Module14\\fu_ret_no_param.c","tests":[{"id":1714391176029,"input":"20 45","output":"65"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\4th week\\Module14\\fu_ret_no_param.c","group":"local","local":true}

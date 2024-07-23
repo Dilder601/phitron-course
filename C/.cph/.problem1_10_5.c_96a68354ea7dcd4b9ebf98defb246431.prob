@@ -1,0 +1,1 @@
+{"name":"Local: problem1_10_5","url":"f:\\Phitron\\problem1_10_5.c","tests":[{"id":1713805672312,"input":"5\nShift\n5\nRight","output":"Shift \nRight"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\problem1_10_5.c","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: pattern1","url":"f:\\Phitron\\4th week\\Module13\\pattern1.c","tests":[{"id":1714228290696,"input":"4","output":"*\n**\n***\n****"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\4th week\\Module13\\pattern1.c","group":"local","local":true}

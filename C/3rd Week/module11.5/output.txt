@@ -1,0 +1,2 @@
+duplicate value = 2
+Unique value = 1

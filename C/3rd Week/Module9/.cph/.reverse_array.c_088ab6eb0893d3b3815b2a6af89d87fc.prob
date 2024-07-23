@@ -1,0 +1,1 @@
+{"name":"Local: reverse_array","url":"f:\\Phitron\\3rd Week\\Module9\\reverse_array.c","tests":[{"id":1713628521741,"input":"6\n10 20 30 40 50 60","output":"60 50 40 30 20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\3rd Week\\Module9\\reverse_array.c","group":"local","local":true}

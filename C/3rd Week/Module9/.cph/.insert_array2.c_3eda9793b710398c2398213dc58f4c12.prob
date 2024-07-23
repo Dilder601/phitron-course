@@ -1,0 +1,1 @@
+{"name":"Local: insert_array2","url":"f:\\Phitron\\3rd Week\\Module9\\insert_array2.c","tests":[{"id":1713625013995,"input":"5\n100 200 400 500 600\n2 300","output":"100 200 300 400 500 600"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\3rd Week\\Module9\\insert_array2.c","group":"local","local":true}

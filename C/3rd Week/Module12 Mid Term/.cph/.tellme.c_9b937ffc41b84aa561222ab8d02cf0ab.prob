@@ -1,0 +1,1 @@
+{"name":"Local: tellme","url":"f:\\Phitron\\3rd Week\\Module12 Mid Term\\tellme.c","tests":[{"id":1714066215568,"input":"2\n6\n1 2 3 4 5 6\n3\n5\n10 20 30 40 50\n70","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\3rd Week\\Module12 Mid Term\\tellme.c","group":"local","local":true}

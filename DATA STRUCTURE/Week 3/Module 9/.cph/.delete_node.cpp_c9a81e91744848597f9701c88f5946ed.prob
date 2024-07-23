@@ -1,0 +1,1 @@
+{"name":"Local: delete_node","url":"f:\\Phitron\\DATA STRUCTURE\\Week 3\\Module 9\\delete_node.cpp","tests":[{"id":1719730482282,"input":"","output":"20 30 40 \n40 30 20 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Phitron\\DATA STRUCTURE\\Week 3\\Module 9\\delete_node.cpp","group":"local","local":true}
