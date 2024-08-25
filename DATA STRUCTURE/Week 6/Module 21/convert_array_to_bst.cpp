@@ -1,17 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
-class Node
-{
+
+class Node {
 public:
     int val;
     Node* left;
     Node* right;
+
     Node(int val) {
         this->val = val;
         this->left = NULL;
         this->right = NULL;
     }
 };
+
 void level_order(Node* root) {
     if (root == NULL) {
         cout << "Tree nai" << endl;
@@ -33,30 +35,34 @@ void level_order(Node* root) {
         if (f->right)
             q.push(f->right);
     }
+    cout << endl;
 }
+
+Node* convert(int a[], int n, int l, int r) {
+    if (l > r) return NULL;
+    int mid = (l + r) / 2;
+    Node* root = new Node(a[mid]);
+    Node* leftRoot = convert(a, n, l, mid - 1);
+    Node* rightRoot = convert(a, n, mid + 1, r);
+    root->left = leftRoot;
+    root->right = rightRoot;
+    return root;
+}
+
 int main() {
-    Node* root = new Node(10);
-    Node* a = new Node(20);
-    Node* b = new Node(30);
-    Node* c = new Node(40);
-    Node* d = new Node(50);
-    Node* e = new Node(60);
-    Node* f = new Node(70);
-    Node* g = new Node(80);
-    Node* h = new Node(90);
-    Node* i = new Node(100);
+    int n;
+    cin >> n;
+    if (n <= 0) {
+        cout << "Invalid input size" << endl;
+        return 1;
+    }
 
-    // connection
-    root->left = a;
-    root->right = b;
-    a->left = c;
-    a->right = h;
-    c->right = e;
-    b->right = d;
-    d->left = f;
-    d->right = g;
-    h->right = i;
+    int a[n];
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
 
+    Node* root = convert(a, n, 0, n - 1);
     level_order(root);
     return 0;
 }

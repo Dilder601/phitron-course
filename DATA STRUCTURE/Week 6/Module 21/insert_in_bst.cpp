@@ -1,17 +1,20 @@
 #include <bits/stdc++.h>
+#include <queue> // Explicitly include the queue library
 using namespace std;
-class Node
-{
+
+class Node {
 public:
     int val;
     Node* left;
     Node* right;
+
     Node(int val) {
         this->val = val;
         this->left = NULL;
         this->right = NULL;
     }
 };
+
 Node* input_tree() {
     int val;
     cin >> val;
@@ -53,6 +56,7 @@ Node* input_tree() {
     }
     return root;
 }
+
 void level_order(Node* root) {
     if (root == NULL) {
         cout << "Tree nai" << endl;
@@ -74,9 +78,44 @@ void level_order(Node* root) {
         if (f->right)
             q.push(f->right);
     }
+    cout << endl; // For better output formatting
 }
+
+void insert(Node*& root, int x) {
+    if (root == NULL) {
+        root = new Node(x);
+        return;
+    }
+    if (x < root->val) {
+        if (root->left == NULL) {
+            root->left = new Node(x);
+        }
+        else {
+            insert(root->left, x);
+        }
+    }
+    else {
+        if (root == NULL) {
+            root = new Node(x);
+        }
+        if (root->right == NULL) {
+            root->right = new Node(x);
+        }
+        else {
+            insert(root->right, x);
+        }
+    }
+}
+
 int main() {
     Node* root = input_tree();
+    int x;
+    cin >> x;
+    insert(root, x);
+    // insert(root, 32);
     level_order(root);
     return 0;
 }
+
+//20 10 30 -1 15 25 35 -1 -1 -1 -1 -1 -1
+//13
